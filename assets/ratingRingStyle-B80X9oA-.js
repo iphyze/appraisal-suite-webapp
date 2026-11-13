@@ -1,0 +1,1 @@
+const n=i=>{const e=Number(i),r=Number.isFinite(e)?Math.max(0,Math.min(100,e)):0;return{"--ring-progress":`${r}%`,"--ring-angle":`${r*3.6}deg`,"--ring-start-visible":r>0?1:0,"--ring-end-visible":r>0&&r<100?1:0}};export{n as r};
